@@ -1,0 +1,128 @@
+.navbarmaindiv {
+    background-color: rgb(0, 0, 0);
+    height:50px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+  z-index: 20;
+}
+
+.NavBarSub1{
+   float: left;
+}
+.NavBarSub2{
+ float: right;
+ margin-right: 30px;
+ margin-top: 10px;
+ width: 300px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#Navimg {
+    height:50px
+}
+/* 
+.registermaindiv {
+
+
+} */
+
+.navbarlinks {
+    text-decoration: none;
+    color: rgb(248, 150, 3);
+}
+
+.navbarlinks:hover{
+    background-color: rgb(214, 228, 19);
+    height:27px;
+}
+
+.registerFeild {
+    margin-top: 15px;
+    height: 25px;
+    width: 240px;
+    border: 1px solid rgb(214, 114, 0);
+    outline: none;
+}
+.registerFeild:hover {
+    background-color: aqua;
+    box-shadow: 3px 3px aqua;
+    border: 1px aqua;
+}
+
+.textDiv {
+    color: red
+}
+
+.loginForm{
+   
+}
+
+.userListLoginReport {
+    /* margin-top: 200px; */
+}
+
+.userListMainDiv {
+    width: 100%;
+   
+}
+
+.userListSubDiv{
+   
+    /* width: 30%;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 3%;
+    overflow-y:auto;
+    height: 490px; */
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    color:coral;
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 10px;
+
+}
+
+.button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.logoutMainDiv {
+ 
+}
+
+#img {
+    height: 280px;
+    width: 50%!important;
+    margin-left: 25%;
+}
+.heroMaindiv{
+    background-color: black;
+    height:280px;
+   
+}
+
+.scannerMainDiv {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.ocrImage {
+    width:400px;
+    height:300px;
+    border:1px solid black;
+}
+.main {
+    margin-top: 100px;
+}
